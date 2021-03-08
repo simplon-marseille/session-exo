@@ -7,13 +7,13 @@ if(isset($_GET['page'])){
 }
 
 if($page === 'home'){
-    require 'home.php';
+    require './views/home.php';
 }
 
 if($page === 'dashboard'){
-    require 'dashboard.php';
+    require './views/dashboard.php';
 }
 
 if ($page === 'login') {
-    require 'login.php';
+    require './views/login.php';
 }
